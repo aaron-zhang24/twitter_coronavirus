@@ -1,4 +1,4 @@
-# Twitter Coroavirus Analysis
+# Twitter Coronavirus Analysis
 
 ## Overview
 This project analyzes geotagged tweets from 2020 to track the number of COVID-19 related hashtags across different languages and countries. The 2020 geotagged Twitter dataset contained approximately 1.1 billion tweets, which were processed using the MapReduce technique.
@@ -24,7 +24,7 @@ This project analyzes geotagged tweets from 2020 to track the number of COVID-19
 ![coronavirus (in korean) by country](outputs/output_imgs/reduced.country.코로나바이러스.png)
 
 ### Coronavirus Related Hashtag Usage Over 2020
-![coronavirus usage over 2020](output/output_imgs/alternative_reduce.png)
+![coronavirus usage over 2020](outputs/output_imgs/alternative_reduce.png)
 
 ## Key Observations
 - `#coronavirus` was predominantly used in English-speaking countries, with the US accounting for the highest number of #coronavirus related tweets
