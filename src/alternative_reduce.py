@@ -49,7 +49,7 @@ all_dates = sorted(set(
 ))
 
 # plot a line for each hashtag
-plt.figure(figsize=(18, 6))
+plt.figure(figsize=(12, 6))
 for hashtag in args.hashtags:
     counts = [data[hashtag].get(date, 0) for date in all_dates]
     label = 'Coronavirus in Korean' if hashtag == '#코로나바이러스' else hashtag
@@ -58,7 +58,7 @@ for hashtag in args.hashtags:
 plt.title('Hashtag Usage Over 2020')
 plt.xlabel('Date')
 plt.ylabel('Number of Tweets')
-plt.xticks(all_dates[::14], rotation=45, ha='right')  # show every 2 weeks
+plt.xticks(all_dates[::28], rotation=45, ha='right')  # show every 4 weeks
 plt.legend()
 plt.tight_layout()
 
