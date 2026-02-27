@@ -37,7 +37,7 @@ labels, values = [item[0] for item in top_ten], [item[1] for item in top_ten]
 # plot the top 10 keys and values
 plt.figure(figsize=(12,6))
 plt.bar(labels, values)
-plt.title(args.key)
+plt.title('Coronavirus in Korean' if args.key == '#코로나바이러스' else args.key)
 plt.xlabel('Language' if 'lang' in args.input_path else 'Country')
 plt.ylabel('Count')
 plt.xticks(rotation=45, ha='right')
