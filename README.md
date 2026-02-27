@@ -20,7 +20,7 @@ This project analyzes geotagged tweets from 2020 to track the number of COVID-19
 ### #코로나바이러스 (Coronavirus in Korean) by Language
 ![coronavirus (in korean) by language](outputs/output_imgs/reduced.lang.코로나바이러스.png)
 
-### #코로나바이러스 (Coronavirus in Korean) by COuntry
+### #코로나바이러스 (Coronavirus in Korean) by Country
 ![coronavirus (in korean) by country](outputs/output_imgs/reduced.country.코로나바이러스.png)
 
 ### Coronavirus Related Hashtag Usage Over 2020
